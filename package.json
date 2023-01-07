@@ -1,0 +1,15 @@
+{
+  "name": "wallet-recovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stardust-collective/dag4-keystore": "^1.2.3",
+    "ethereumjs-wallet": "^1.0.2"
+  }
+}
