@@ -13,6 +13,11 @@ This package was created to help users recover wallets created prior to v2.1 tha
 ### Node.js
 You must have node.js installed on your system to run this script. If it's not already installed, [see here](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) for options.
 
+You can check if it's already installed by running the following. It will return nothing if it isn't installed, or the path where node is installed if it is installed. 
+```
+which node
+```
+
 ### Clone the repo
 ```
 git clone https://github.com/StardustCollective/bip-44-wallet-recovery
@@ -30,7 +35,7 @@ The script runs locally on your machine using the seed phrase you provide and an
 
 Provide the seed phrase and index as command line arguments. Make sure to put the seed phrase in double quotes ("").
 ```
-node index.hs <seed phrase> <index>
+node index.js <seed phrase> <index>
 ```
 
 Example (first account): 
